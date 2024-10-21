@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Estilo general del cuerpo */
+body {
+    background-image: url("./assets/b400e0788ced70e221fe4416aa4989df.jpg");
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    padding-top: 20px;
+}
+
+/* Título de la biblioteca */
+h2 {
+    color: #ca7263;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+/* Estilo de las tarjetas (cards) */
+.card {
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    background-color: #fff;
+    border: none;
+}
+
+/* Efecto hover en la tarjeta */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del Pokémon */
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Enlace al detalle del Pokémon */
+.card-title a {
+    color: #1e90ff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-title a:hover {
+    color:#ca7263;
+    text-decoration: underline;
+}
+
+/* Texto del cuerpo de la tarjeta */
+.card-text {
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Margen en los elementos de la tarjeta */
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
